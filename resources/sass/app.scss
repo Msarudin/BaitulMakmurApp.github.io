@@ -1,0 +1,20 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+.pc-sidebar .pc-navbar .pc-item.menu-aktif {
+    > .pc-link {
+        background-color: #0b7f63 !important;
+
+        // Paksa teks dan ikon di dalamnya menjadi putih bersih
+        .pc-mtext,
+        .pc-micon i {
+            color: #ffffff !important;
+        }
+    }
+}
